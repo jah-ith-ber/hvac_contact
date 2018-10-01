@@ -124,7 +124,7 @@ get_header();
           <p><label for="message_email">Email: <span>*</span> <br><input type="text" name="message_email" value="<?php echo esc_attr($_POST['message_email']); ?>"></label></p>
           <p><label for="message_phone">Phone: <span>*</span> <br><input type="text" name="message_phone"></label></p>
           <p><label for="message_text">Message: <span>*</span> <br><textarea type="text" name="message_text"><?php echo esc_textarea($_POST['message_text']); ?></textarea></label></p>
-          <div class="g-recaptcha" data-sitekey="6LcoSHIUAAAAADAHcuRJosjiW9WDkf0xsrrqNNxs"></div>
+          <div class="g-recaptcha" data-sitekey="myrecaptchaapikey"></div>
           <input type="hidden" name="submitted" value="1">
           <p><input type="submit"></p>
         </form>
